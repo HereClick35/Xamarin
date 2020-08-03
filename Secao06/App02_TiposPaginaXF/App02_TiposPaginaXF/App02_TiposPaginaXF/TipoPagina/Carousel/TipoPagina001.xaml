@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02_TiposPaginaXF.TipoPagina.Carousel.TipoPagina001"
+             BackgroundColor="LightSkyBlue">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" >
+            <Label Text="Bem Vindo á"     TextColor="Blue" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Mecânica Passos" TextColor="Red" HorizontalOptions="CenterAndExpand" />
+            <Image Source="xamarin.png" BackgroundColor="Transparent"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
