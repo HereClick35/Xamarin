@@ -25,5 +25,11 @@ namespace App02_TiposPaginaXF.TipoPagina.Navigation
             _DtAtual = DateTime.Now.ToString("u");
             Navigation.PushAsync(new Pagina002(_DtAtual), true);
         }
+        
+        private void ChamarModal(object sender, EventArgs args)
+        {
+            // Aula 40 - NavigationPage - Modal
+            Navigation.PushModalAsync(new Modal());
+        }
     }
 }

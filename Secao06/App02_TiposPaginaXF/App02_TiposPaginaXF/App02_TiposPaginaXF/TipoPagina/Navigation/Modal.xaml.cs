@@ -16,5 +16,13 @@ namespace App02_TiposPaginaXF.TipoPagina.Navigation
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void FecharModal(object sender, EventArgs args)
+        {
+            //Fechar modal
+            //Deve ser usado 'PopModalAsync' pois chegamos ate aqui com o comando 'PushModalAsync'
+            Navigation.PopModalAsync();
+        }
+
+    }
 }

@@ -14,6 +14,9 @@
             <Label x:Name="lblDataAtual" Text="" TextColor="#77d065" FontSize = "20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
 
             <Button Text="Ir para Página 2" Clicked="MudarParaPagina2" BackgroundColor="Transparent"/>
+
+            <Button Text="Chamar Modal" Clicked="ChamarModal" BackgroundColor="Transparent" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

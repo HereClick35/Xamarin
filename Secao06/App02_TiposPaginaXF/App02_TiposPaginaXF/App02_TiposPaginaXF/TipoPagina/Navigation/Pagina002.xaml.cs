@@ -17,5 +17,11 @@ namespace App02_TiposPaginaXF.TipoPagina.Navigation
 			InitializeComponent ();
             lblDataAtual2.Text = data;
         }
-	}
+
+        private void ChamarModal(object sender, EventArgs args)
+        {
+            // Aula 40 - NavigationPage - Modal
+            Navigation.PushModalAsync(new Modal());
+        }
+    }
 }

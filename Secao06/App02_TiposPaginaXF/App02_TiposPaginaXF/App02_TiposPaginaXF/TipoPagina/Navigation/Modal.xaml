@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_TiposPaginaXF.TipoPagina.Navigation.Modal">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Eu sou um Modal"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <ContentPage.Content>        
+        <StackLayout BackgroundColor="LightSkyBlue">
+            
+            <StackLayout HeightRequest="50" BackgroundColor="LightBlue">
+                <Label Text="Eu sou Titulo da Modal" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
+                <Button Text="X" Clicked="FecharModal"/>
+            </StackLayout>
+
+            <Label Text="Você confirma esta operação ?" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

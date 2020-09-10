@@ -12,6 +12,8 @@
         <StackLayout>
             <Label Text="Eu sou a SEGUNDA Página" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
             <Label x:Name="lblDataAtual2" Text="" TextColor="#77d065" FontSize = "20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Chamar Modal" Clicked="ChamarModal" BackgroundColor="Transparent" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
