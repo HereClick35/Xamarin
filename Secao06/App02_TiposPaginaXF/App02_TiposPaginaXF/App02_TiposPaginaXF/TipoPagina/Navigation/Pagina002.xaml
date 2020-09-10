@@ -4,9 +4,8 @@
              x:Class="App02_TiposPaginaXF.TipoPagina.Navigation.Pagina002">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Eu sou a SEGUNDA Página"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Eu sou a SEGUNDA Página" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="lblDataAtual2" Text="" TextColor="#77d065" FontSize = "20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

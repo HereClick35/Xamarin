@@ -12,9 +12,18 @@ namespace App02_TiposPaginaXF.TipoPagina.Navigation
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Pagina001 : ContentPage
 	{
-		public Pagina001 ()
-		{
+        string _DtAtual = "";
+        public Pagina001 (string date)
+		{   
 			InitializeComponent ();
-		}
-	}
+            _DtAtual = date.ToString();
+            lblDataAtual.Text = _DtAtual;
+        }
+
+        private void MudarParaPagina2(object sender, EventArgs args)
+        {
+            _DtAtual = DateTime.Now.ToString("u");
+            Navigation.PushAsync(new Pagina002(_DtAtual), true);
+        }
+    }
 }

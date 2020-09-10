@@ -12,9 +12,10 @@ namespace App02_TiposPaginaXF.TipoPagina.Navigation
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Pagina002 : ContentPage
 	{
-		public Pagina002 ()
+		public Pagina002 (string data)
 		{
 			InitializeComponent ();
-		}
+            lblDataAtual2.Text = data;
+        }
 	}
 }

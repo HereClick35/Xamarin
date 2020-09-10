@@ -19,8 +19,9 @@ namespace App02_TiposPaginaXF.TipoPagina.Carousel
 
         private void MudarPagina(object sender, EventArgs args)
         {
-            App.Current.MainPage = new Navigation.Pagina001();
+            //App.Current.MainPage = new Navigation.Pagina001();
+            // incluindo pagina na pilha, ativando desta forma o recurso de voltar pagina anterior            
+            App.Current.MainPage = new NavigationPage(new Navigation.Pagina001(DateTime.Now.ToString("u")));
         }
-
     }
 }
