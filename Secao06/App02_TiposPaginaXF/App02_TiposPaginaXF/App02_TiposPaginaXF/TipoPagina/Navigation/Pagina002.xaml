@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_TiposPaginaXF.TipoPagina.Navigation.Pagina002"
              Title="Titulo da Pagina 2">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Ordenar"  Icon="play.png" />
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Eu sou a SEGUNDA Página" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />

@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_TiposPaginaXF.TipoPagina.Navigation.Pagina001"
              Title="Titulo da Pagina 1">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa" Icon="xamarin.png"/>
+        <ToolbarItem Text="Detalhes" Icon="Page.png"/>
+        <ToolbarItem Text="Ordenar"  Icon="play.png"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Eu sou uma ContentPage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
