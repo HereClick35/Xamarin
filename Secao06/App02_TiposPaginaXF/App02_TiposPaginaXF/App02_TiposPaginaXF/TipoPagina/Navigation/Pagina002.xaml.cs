@@ -12,16 +12,22 @@ namespace App02_TiposPaginaXF.TipoPagina.Navigation
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Pagina002 : ContentPage
 	{
-		public Pagina002 (string data)
+		public Pagina002 ()
 		{
 			InitializeComponent ();
-            lblDataAtual2.Text = data;
+            lblDataAtual2.Text = DateTime.Now.ToString("u");
         }
 
         private void ChamarModal(object sender, EventArgs args)
         {
             // Aula 40 - NavigationPage - Modal
             Navigation.PushModalAsync(new Modal());
+        }
+
+        private void CallPageTabbed(object sender, EventArgs args)
+        {
+            // Class 41 - Working with TabbedPage
+            Navigation.PushAsync(new Tabbed.Abas());
         }
     }
 }

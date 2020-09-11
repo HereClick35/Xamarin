@@ -21,7 +21,7 @@ namespace App02_TiposPaginaXF.TipoPagina.Carousel
         {
             //App.Current.MainPage = new Navigation.Pagina001();
             // incluindo pagina na pilha, ativando desta forma o recurso de voltar pagina anterior            
-            App.Current.MainPage = new NavigationPage(new Navigation.Pagina001(DateTime.Now.ToString("u"))) {BarBackgroundColor = Color.Red };
+            App.Current.MainPage = new NavigationPage(new Navigation.Pagina001()) {BarBackgroundColor = Color.Red };
         }
     }
 }

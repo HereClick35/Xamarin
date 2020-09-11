@@ -8,6 +8,7 @@
         <ToolbarItem Text="Detalhes" Icon="Page.png"/>
         <ToolbarItem Text="Ordenar"  Icon="play.png"/>
     </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Eu sou uma ContentPage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
